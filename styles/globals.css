@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --admin: #FF6B35;
+  --admin-dark: #E55A25;
+  --staff: #2D9CDB;
+  --staff-dark: #1A7DB5;
+  --student: #27AE60;
+  --student-dark: #1E8449;
+  --bg: #0A0A0F;
+  --surface: #13131A;
+  --surface2: #1C1C26;
+  --border: rgba(255,255,255,0.07);
+  --text: #F0F0F5;
+  --muted: #6B6B80;
+  --font: 'Sora', sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+button {
+  font-family: var(--font);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input, select, textarea {
+  font-family: var(--font);
+  outline: none;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
